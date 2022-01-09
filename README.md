@@ -22,5 +22,9 @@ gcc -Wall -std=c99 -pedantic alphanim.c nimhelp.c nim.c -o alphanim
 
 to run the program:
 
-./alphanim <first_player> <matches>
+./alphanim first_player matches
+
+Example:
+
+./alphanim 0 (computer goes first) 1 3 5 7 (four rows with 1,3,5,7 matches)
 
